@@ -150,6 +150,19 @@ This ensures predictions arise solely from intrinsic pore-structure information,
 
 ---
 
+### 📁 Repository Structure
+
+model_outputs/
+├── models/        # Trained ensembles + GPR
+├── preds/         # Predictions & uncertainties
+├── shap/          # Exact Shapley values
+├── params/        # Physics parameter analysis
+├── nas/           # Optuna studies & plots
+├── figures/       # Diagnostic plots
+├── data/          # Raw & processed datasets
+
+---
+
 ## ⚙️ Installation & Reproducibility
 
 git clone https://github.com/HRNBEnninful/Uncertainty-Aware-Stacked-PINN-Permeability.git
