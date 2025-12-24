@@ -1,0 +1,26 @@
+# Core numerical computing
+numpy>=1.23
+scipy>=1.9
+pandas>=1.5
+
+# Machine learning
+scikit-learn>=1.2
+torch>=2.0
+joblib>=1.2
+
+# Gaussian Processes
+scikit-learn>=1.2
+
+# Bayesian optimization / NAS
+optuna>=3.0
+
+# Interpretability
+shap>=0.42
+
+# Visualization
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.15
+
+# File formats
+openpyxl>=3.1
